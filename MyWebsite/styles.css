@@ -1,0 +1,239 @@
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+    background-color: #606f7e;
+    display: flex;
+  }
+
+  .container-fluid {
+    padding: 3% 15%;
+  }
+
+  section{
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  hr{
+    border-top: 10px solid white;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1.5;
+    color:#40c599;
+    text-align: center;
+  }
+
+  h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color:  white;
+    border-radius: 10%;
+    padding: 0 10px;
+  }
+  
+  h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+
+  h5{
+    color:#d3a15f; 
+    font-weight: bold;
+  }
+  
+  p {
+    padding-top: 10px;
+    font-family: 'Montserrat';  
+    font-size: 15px;
+    color: #F0FFFF;
+    text-align: center;
+  }
+
+  #navbar {
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    left: 0;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 9999;
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    font-family: 'Titillium Web';
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #about {
+    font-family: 'Anton', sans-serif;
+    top: 20px;
+    background-color: black;
+  }
+  
+  #experience {
+    font-family: 'Anton', sans-serif;
+    top: 80px;
+    background-color: black; 
+  }
+  
+  #contact {
+    font-family: 'Anton', sans-serif;
+    top: 140px;
+    background-color: black;
+  }
+  
+  #resume {
+    font-family: 'Anton', sans-serif;
+    top: 200px;
+    background-color:black;
+  }
+
+  .aboutMe-image {
+    width: 75%;
+    border-radius: 5%;
+    float: right;
+    margin: 5rem;
+  }
+  
+  #aboutMe {
+    background-color: #606f7e; 
+    padding: 0,0,40rem;
+  }
+  
+  .aboutMe-box {
+    text-align: right;
+    padding: 5% 5% 5%;
+  }
+
+  .mySites-logo:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+  }
+  
+  #mySites {
+    background-color: #FFEBCD;
+    text-align: center;
+  }
+  
+
+  .mySites-logo {
+    width: 10%;
+    margin: 20px 50px 20px;
+  }
+
+   #skills{
+    background-color: #606f7e;
+    text-align: center;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    font-family: 'Playfair Display';
+    color:  white;
+    position: relative;
+    top: 9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img{
+    position: relative;
+    top: 10rem;
+    padding: 1.25rem;
+  }
+
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+  .icon-card {
+    background-color: rgb(201, 197, 197);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  #Experience {
+    background-color: #606f7e;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .Experience-column {
+    padding: 3% 3% 2%;
+  }
+  
+  #cta{
+    background-color: #e4c49b;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff8dc;
+  }
+  
+  .cta-heading{
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .card-title{
+    border-radius: 10%;
+    font-family: 'Titillium Web';
+  }
+
+  .card:hover{
+    opacity: 1.0;
+  }
+
+  .card{
+    text-decoration:none;
+    background-color: #4d7f80;  
+    opacity: 0.3;
+    border-radius: 10px;
+  }
+
+  #footer{
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  .social-icon{
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+    #aboutMe {
+      text-align: center;
+    }
+  
+    .aboutMe-image {
+      position: static;
+      border-radius: 5px;
+    }
+  }
+  
